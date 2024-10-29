@@ -14,7 +14,7 @@
         compatible = "zmk,combos";
 
         RightShift {
-            bindings = <&kp LEFT_SHIFT>;
+            bindings = <&kp LSHIFT>;
             key-positions = <41 35>;
             layers = <0 1 2>;
             timeout-ms = <50>;
