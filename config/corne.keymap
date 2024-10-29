@@ -14,7 +14,7 @@
         compatible = "zmk,combos";
 
         RShift {
-            bindings = <&kp RIGHT_SHIFT>;
+            bindings = <&kp LEFT_SHIFT>;
             key-positions = <35 41>;
             layers = <0 1 2>;
             timeout-ms = <50>;
