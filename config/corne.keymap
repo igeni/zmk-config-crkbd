@@ -95,10 +95,10 @@
 
             label = "[1] Lower";
             bindings = <
-&kp TAB     &kp N1        &kp N2        &kp N3            &kp N4        &kp N5          &kp N6    &kp N7    &kp N8    &kp N9     &kp N0  &kp BSPC
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2      &bt BT_SEL 3  &bt BT_SEL 4    &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT  &trans  &to 3
-&kp LSHFT   &trans        &trans        &trans            &trans        &trans          &trans    &trans    &trans    &trans     &trans  &kp ESC
-                                        &kp LEFT_COMMAND  &trans        &kp SPACE       &kp RET   &trans    &kp RALT
+&kp TAB           &kp N1  &kp N2  &kp N3            &kp N4  &kp N5       &kp N6    &kp N7         &kp N8       &kp N9     &kp N0  &kp BSPC
+&kp LEFT_CONTROL  &trans  &trans  &trans            &trans  &trans       &kp LEFT  &kp DOWN       &kp UP       &kp RIGHT  &trans  &trans
+&kp LSHFT         &trans  &trans  &trans            &trans  &trans       &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &trans  &kp ESC
+                                  &kp LEFT_COMMAND  &trans  &kp SPACE    &kp RET   &trans         &kp RALT
             >;
         };
 
@@ -121,10 +121,10 @@
         funcional_layer_3 {
             label = "[3] Fn";
             bindings = <
-&kp TAB    &kp F1  &kp F2  &kp F3            &kp F4  &kp F5       &kp F6    &kp F7    &kp F8    &kp F9     &kp F10  &kp F11
-&kp RCTRL  &trans  &trans  &trans            &trans  &trans       &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT  &trans   &to 0
-&kp LSHFT  &trans  &trans  &trans            &trans  &trans       &trans    &trans    &trans    &trans     &trans   &kp ESC
-                           &kp LEFT_COMMAND  &mo 0   &kp SPACE    &kp RET   &trans    &kp RALT
+&kp TAB     &kp F1        &kp F2        &kp F3            &kp F4        &kp F5          &kp F6    &kp F7    &kp F8    &kp F9     &kp F10  &kp F11
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2      &bt BT_SEL 3  &bt BT_SEL 4    &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT  &trans   &to 0
+&kp LSHFT   &trans        &trans        &trans            &trans        &trans          &trans    &trans    &trans    &trans     &trans   &kp ESC
+                                        &kp LEFT_COMMAND  &mo 0         &kp SPACE       &kp RET   &trans    &kp RALT
             >;
         };
     };
