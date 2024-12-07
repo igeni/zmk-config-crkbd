@@ -19,6 +19,34 @@
             layers = <0 1 2>;
             timeout-ms = <50>;
         };
+
+        L0_1 {
+            bindings = <&to 1>;
+            key-positions = <37 29>;
+            timeout-ms = <50>;
+            layers = <0>;
+        };
+
+        L1_2 {
+            bindings = <&to 2>;
+            key-positions = <37 29>;
+            timeout-ms = <50>;
+            layers = <1>;
+        };
+
+        L2_3 {
+            bindings = <&to 3>;
+            key-positions = <37 29>;
+            timeout-ms = <50>;
+            layers = <2>;
+        };
+
+        L3_0 {
+            bindings = <&to 0>;
+            key-positions = <37 29>;
+            timeout-ms = <50>;
+            layers = <3>;
+        };
     };
 
     behaviors {
@@ -51,10 +79,10 @@
 
             label = "[0] Base";
             bindings = <
-&EscapeTapDance  &kp Q  &kp W  &kp E        &kp R  &kp T        &kp Y    &kp U  &kp I      &kp O    &kp P     &kp BSPC
-&kp LCTRL        &kp A  &kp S  &kp D        &kp F  &kp G        &kp H    &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
-&kp LSHFT        &kp Z  &kp X  &kp C        &kp V  &kp B        &kp N    &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHIFT
-                               &cmd_layers  &mo 1  &kp SPACE    &kp RET  &mo 2  &kp RALT
+&EscapeTapDance  &kp Q  &kp W  &kp E             &kp R  &kp T        &kp Y    &kp U  &kp I      &kp O    &kp P     &kp BSPC
+&kp LCTRL        &kp A  &kp S  &kp D             &kp F  &kp G        &kp H    &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
+&kp LSHFT        &kp Z  &kp X  &kp C             &kp V  &kp B        &kp N    &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHIFT
+                               &kp LEFT_COMMAND  &mo 1  &kp SPACE    &kp RET  &mo 2  &kp RALT
             >;
         };
 
