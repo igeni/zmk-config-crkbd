@@ -31,11 +31,11 @@
             tapping-term-ms = <200>;
         };
 
-        Layer3: Layer3 {
+        to_layer_3: to_layer_3 {
             compatible = "zmk,behavior-tap-dance";
-            label = "LAYER3";
+            label = "TO_LAYER_3";
             #binding-cells = <0>;
-            bindings = <&mo 1>, <&mo 3>;
+            bindings = <&mo 1>, <&to 3>;
         };
     };
 
@@ -51,10 +51,10 @@
 
             label = "Base";
             bindings = <
-&EscapeTapDance  &kp Q  &kp W  &kp E     &kp R  &kp T        &kp Y    &kp U  &kp I      &kp O    &kp P     &kp BSPC
-&kp LCTRL        &kp A  &kp S  &kp D     &kp F  &kp G        &kp H    &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
-&kp LSHFT        &kp Z  &kp X  &kp C     &kp V  &kp B        &kp N    &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHIFT
-                               &kp LGUI  &mo 1  &kp SPACE    &kp RET  &mo 2  &kp RALT
+&EscapeTapDance  &kp Q  &kp W  &kp E     &kp R        &kp T        &kp Y    &kp U  &kp I      &kp O    &kp P     &kp BSPC
+&kp LCTRL        &kp A  &kp S  &kp D     &kp F        &kp G        &kp H    &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
+&kp LSHFT        &kp Z  &kp X  &kp C     &kp V        &kp B        &kp N    &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHIFT
+                               &kp LGUI  &to_layer_3  &kp SPACE    &kp RET  &mo 2  &kp RALT
             >;
         };
 
